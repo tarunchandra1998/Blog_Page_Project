@@ -1,0 +1,75 @@
+lecture 1
+
+
+lecture 2
+--express server
+--port
+--dotenv
+
+lecture 3
+--using mongodb site for making server
+--make collection and db 
+--use mongodb atlas
+--connect the ecommerce server to mongodb
+lecture 4
+--mongoose model
+--routes
+--controllers
+--bcrypt
+--helper
+
+
+
+lecture 11
+-- using the usestate 
+--then passing value ={name}
+-- using onChangeEvent  --- onChange(e)=> setName(e.target.value)
+--putted required for validation
+--we have to prevent the behavior of reloading on pressing submit 
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    console.log(name);
+  };
+
+
+-- now data is coming from frontend by form-->we have to sent the data to server[because we can't communicate directly] 
+{by using axios(best for HTTP client in react)}
+
+
+-- Used Toast notification
+
+--Added .env for react to secure react server
+
+-- npm i concurrently --> to run multiple commands simultaneously
+-- npm i cors =>to avoid cros orgin error
+
+
+
+
+
+-- now we are using navigate()
+-- Builded Register and login page  
+-- 
+
+lecture 12
+---Protected the basic menu(navigate menu)
+--when user is login we have to hide the  login and show the logout page
+-- for that we have to create Global State{By using context API(more popular and demand) or REDUX}
+--basicsally we will create an State somewere and will access multiple component
+
+-- after login-show login detail-store locally the details -- use that local storage 
+-- created fucntionality of logout-
+
+lecture 13
+-- Protected the routes(dashboard)
+
+
+-- used ---eslint-disable-next-line
+
+--creating private route for Dashboard[
+  -for this 
+]
+
+
+ 
